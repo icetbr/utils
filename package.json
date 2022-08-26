@@ -1,0 +1,16 @@
+{
+  "name": "@icetbr/utils",
+  "version": "1.0.0",
+  "description": "Useful functions for my personal projects",
+  "types": "types",
+  "scripts": {
+    "test": "echo \"usage: ./run.sh taskName\" && exit 1"
+  },
+  "author": "icetbr",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
