@@ -10,12 +10,24 @@
   "license": "MIT",
   "-------------------------------------": "",
   "exports": {
-    "./misc": "./src/misc.js",
-    "./deploy": "./src/deploy.js",
-    "./web": "./src/web.js"
+    "./misc": {
+      "import": "./src/misc.js",
+      "types": "./types/misc.d.ts"
+    },
+    "./deploy": {
+      "import": "./src/deploy.js",
+      "types": "./types/deploy.d.ts"
+    },
+    "./web": {
+      "import": "./src/web.js",
+      "types": "./types/web.d.ts"
+    }
   },
+  "files": [
+    "src",
+    "types"
+  ],
   "type": "module",
-  "types": "types",
   "scripts": {
     "test": "echo \"usage: ./run.sh taskName\" && exit 1"
   },

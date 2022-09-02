@@ -2,7 +2,7 @@
 
 Useful functions for my personal projects
 
-> **EVERYBODY SHOULD HAVE A LOCAL SHARED UTILS PROJECT!** See [why](#why).
+> **Everybody should have a shared utils project!** See [why](#why).
 
 ## Install
 `npm i @icetbr/utils`

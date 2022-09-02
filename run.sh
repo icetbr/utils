@@ -12,7 +12,7 @@ createTypes () { npx -p typescript tsc src/* --declaration --allowJs --emitDecla
 test        () { mocha --inline-diffs --bail --leaks --reporter min -r chai/register-expect.js ;}
 testi       () { mocha --inline-diffs --bail --leaks --reporter min -r chai/register-expect.js --inspect-brk=9231 ;}
 test2       () { _node src/deploy.js ;}
-test2i       () { _node --inspect-brk=9231 src/deploy.js ;}
+test2i      () { _node --inspect-brk=9231 src/deploy.js ;}
 
 # updateGithub () {
 #     description=grep -Po '"description":.*?[^\\]",' package.json
