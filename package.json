@@ -9,6 +9,11 @@
   "author": "icetbr",
   "license": "MIT",
   "-------------------------------------": "",
+  "exports": {
+    "./misc": "./src/misc.js",
+    "./deploy": "./src/deploy.js",
+    "./web": "./src/web.js"
+  },
   "type": "module",
   "types": "types",
   "scripts": {
