@@ -17,6 +17,7 @@
 
 ## Clarifications
 
+- **name**: `@user/moduleName` is useful to avoid conflicts for already taken names and also grouping together your many packages
 - **exports**: somewhat `types`, `typesVersions`, `main`
   - use `compilerOptions.moduleResolution: "NodeNext"` in `jsconfig.json` to benefit from `exports` (Go To Definition, types, jsdoc)
 - **files**: what will be present in the published package, otherwise puts everything!

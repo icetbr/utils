@@ -21,7 +21,7 @@ Note that the "linked" project must have a `package.json` with a `name`. If the 
 
 ## Usage
 ```js
-import { $, $$, el, toBase64, toSearcheable, isBrazil } from '@icetbr/utils/web';
+import { $, $$, el, toBase64, toSearchable, isBrazil } from '@icetbr/utils/web';
 ```
 
 
@@ -38,10 +38,13 @@ You may priorize known libraries, like [lodash](https://lodash.com), but for eve
 - encourages contribution to the community as any of your `utils` functions may become a **library** by itself!
 
 ### Learning
-I use a minimal implemention that suits my current problem. When they become insufficient or present a bug, I **study the reasons** and look online for solutions, usualy exploring the source code of other npm libraries.
+I use a minimal implementation that suits my current problem. When they become insufficient or present a bug, I **study the reasons** and look online for solutions, usually exploring the source code of other npm libraries.
 
 
 ### Efficiency
 The minimal code also helps with **performance** and reduces **cognitive load** when trying to analyze the source code.
 
 This package is meant to be used with **tree shaking** or some automatic copy/pasting perhaps, if size is really an issue.
+
+[Contributing](https://github.com/icetbr/my-projects/blob/main/CONTRIBUTING.md)\
+[License (MIT)](https://choosealicense.com/licenses/mit/)
