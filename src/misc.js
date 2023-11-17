@@ -7,6 +7,7 @@ const bold     = msg => `\x1b[30;1m${msg}\x1b[0m`;
 const green    = msg => `\x1b[32m${msg}\x1b[0m`;
 const greenBg  = msg => `\x1b[42m${msg}\x1b[0m`;
 const red      = msg => `\x1b[31m${msg}\x1b[0m`;
+const normal   = msg => `\x1b[0m${msg}\x1b[0m`;
 const redBg    = msg => `\x1b[37;41m${msg}\x1b[0m`;
 const purple   = msg => `\x1b[35m${msg}\x1b[0m`;
 const dim      = msg => `\x1b[2m${msg}\x1b[0m`;
@@ -83,3 +84,5 @@ export const memoize = fn => {
 //     formatter.maxInlineLength = 120;
 //     return formatter.serialize(o).replace(/"/g, "");
 // };
+
+export const keyBy = (array, key) => (array || []).reduce((r, x) => ({ ...r, [key ? x[key] : x]: x }), {});
